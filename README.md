@@ -1,1 +1,1 @@
-# VAE-Anomaly-Detection-in-Smart-Manufacturing
+# Anomaly-Detection-in-Smart-Manufacturing
