@@ -1,1 +1,1 @@
-# VAE-Anomaly-Detection-in-Predictive-Maintenance
+# VAE-Anomaly-Detection-in-Smart-Manufacturing
