@@ -4,4 +4,4 @@ In this example, we use bearing data provided by Case Western Reserve University
 
 ### Method
 In this repo, we used Variational Autoencoder (VAE) for anomaly detection. The reconstruction error of training data is used as anomaly threshold to detect different anomalies of bearing.
-
+In Data folder, bearing data in .mat is processed and then fed into VAE model in VAE folder.
