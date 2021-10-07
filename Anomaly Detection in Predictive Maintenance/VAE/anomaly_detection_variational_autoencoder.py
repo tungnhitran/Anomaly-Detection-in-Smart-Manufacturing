@@ -364,13 +364,13 @@ df_fake_test_or.columns=cols_ano
 mse = ((df_base-df_fake)**2).mean(axis=1)
 
 #reconstruction error ball data
-mse_test = ((df_anomaly-df_fake_test)**2).max(axis=1)
+mse_test = ((df_anomaly-df_fake_test)**2).mean(axis=1)
 
 #reconstruction error inner data
-mse_test_ir = ((df_anomaly_ir-df_fake_test_ir)**2).max(axis=1)
+mse_test_ir = ((df_anomaly_ir-df_fake_test_ir)**2).mean(axis=1)
 
 #reconstruction error outer data
-mse_test_or = ((df_anomaly_or-df_fake_test_or)**2).max(axis=1)
+mse_test_or = ((df_anomaly_or-df_fake_test_or)**2).mean(axis=1)
 
 #calculate anomaly threshold from reconstruction error train data
 threshold = mse.max()
